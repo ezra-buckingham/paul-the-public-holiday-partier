@@ -40,7 +40,7 @@ def get_csv_of_holidays(country: str, year: int) -> Path:
     Path to an existing CSV file on disk
 ''')
 def cli(country, start_year, end_year, output):
-    """Combine an input CSV file with an existing CSV file and save the result."""
+    """Get holidays and combine all them into a single CSV"""
     
     # Set everything up first
     year_range = range(start_year, end_year, 1)
